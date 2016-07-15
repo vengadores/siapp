@@ -1,6 +1,7 @@
 # siapp.rb
+require 'rubygems'
 require 'sinatra'
 
 get '/' do
-  'Hola mundo!'
+  File.read(File.join('public', 'index.html'))
 end
