@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.wraper{
+    margin-top: 200px;
+    display: inline-block
+    background-color: gold;
+    text-align:center;
+}
+
+.title{
+    text-align: center
+
+    
+}
+
+.submit {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+}
